@@ -1,6 +1,6 @@
 USE AdventureWorks2012
 GO
-
+DROP TABLE  Sales.SpecialOfferHst;
 -- a)
 CREATE TABLE Sales.SpecialOfferHst (
 	ID INT IDENTITY(1, 1) PRIMARY KEY,
